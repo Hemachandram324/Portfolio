@@ -44,7 +44,7 @@ const HomePage = () => {
       <section
         className="relative min-h-screen flex items-center justify-center px-6">
   {/* Video Background */}
-  <video
+  {/* <video
     className="absolute inset-0 w-full h-full object-cover"
     autoPlay
     muted
@@ -53,7 +53,7 @@ const HomePage = () => {
   >
     <source src="src/react-app/assets/images/stock-footage-code-creation-and-algorithm-design-coding-expertise-web-development-animation-rendering.webm" type="video/webm" />
     Your browser does not support the video tag.
-  </video>
+  </video> */}
 
   {/* Dark overlay for readability */}
   <div className="absolute inset-0 bg-black/60"></div>
