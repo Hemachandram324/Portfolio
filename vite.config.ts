@@ -17,5 +17,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "./", // ✅ important for correct asset paths
+  base: "./", 
 });
